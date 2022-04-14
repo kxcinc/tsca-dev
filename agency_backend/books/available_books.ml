@@ -17,7 +17,6 @@ let available_books
 
 let advertized_books : book_entry list = [
     Frozen.book_entry.entry;
-    Crowdfunding.book_entry.entry;
     Graveyard.book_entry.entry;
   ]
 let all_providers : (string (* providerident *) * provider) list = [
